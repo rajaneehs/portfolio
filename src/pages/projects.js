@@ -30,7 +30,7 @@ const ProjectPage = () => {
         <ul className={projectStyles.posts}>
           {data.allMarkdownRemark.edges.map(edge => {
             return (
-              <li className={projectStyles.post}>
+              <li className={projectStyles.post} key={edge.node.fields.slug}>
                 <Link to={`/projects/${edge.node.fields.slug}`}>
                   <h2>{edge.node.frontmatter.title}</h2>
                 </Link>
