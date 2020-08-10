@@ -19,7 +19,8 @@ const AboutPage = () => {
         <ul>
           <li>JavaScript, React, Redux</li>
           <li>NodeJS, Express, MongoDB, PostgreSQL</li>
-          <li>HTML, CSS</li>
+          <li>Python</li>
+          <li>Gatsby, GraphQL(basics), HTML, CSS</li>
         </ul>
       </Layout>
     </div>
